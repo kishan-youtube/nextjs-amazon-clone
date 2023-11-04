@@ -217,13 +217,6 @@ export class CategoryControllerBase {
         discountedPrice: true,
         id: true,
         images: true,
-
-        order: {
-          select: {
-            id: true,
-          },
-        },
-
         title: true,
         titlePrice: true,
         updatedAt: true,

@@ -30,8 +30,7 @@ model Product {
   discountedPrice Float
   id              String    @id @default(cuid())
   images          Json
-  order           Order?    @relation(fields: [orderId], references: [id])
-  orderId         String?
+  order           Order[]
   reviews         Review[]
   title           String
   titlePrice      Float
