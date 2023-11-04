@@ -278,13 +278,6 @@ export class OrderControllerBase {
         discountedPrice: true,
         id: true,
         images: true,
-
-        order: {
-          select: {
-            id: true,
-          },
-        },
-
         title: true,
         titlePrice: true,
         updatedAt: true,
